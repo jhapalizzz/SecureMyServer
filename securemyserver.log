@@ -1,0 +1,11 @@
+Starting server hardening...
+Disabling telnet and FTP(if installed)...
+Failed to stop telnet.socket: Unit telnet.socket not loaded.
+Failed to disable unit: Unit file telnet.socket does not exist.
+Failed to stop vsftpd.service: Unit vsftpd.service not loaded.
+Failed to disable unit: Unit file vsftpd.service does not exist.
+setting up UFW firewall...
+Skipping adding existing rule
+Skipping adding existing rule (v6)
+Firewall is active and enabled on system startup
+Basic linux heardening complete.
